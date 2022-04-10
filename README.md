@@ -41,4 +41,5 @@ https://www.youtube.com/watch?v=j38ufd8Q86w
          IsComplete : boolean;
        }
 2) Add services
- 
+ ```
+         npx nx g s services/todos/todo --project=core-data
