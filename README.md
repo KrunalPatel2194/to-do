@@ -42,4 +42,4 @@ https://www.youtube.com/watch?v=j38ufd8Q86w
        }
 2) Add services
  ```
-         npx nx g s services/todos/todo --project=core-data
+       npx nx g s services/todos/todo --project=core-data
