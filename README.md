@@ -12,11 +12,14 @@ https://www.youtube.com/watch?v=j38ufd8Q86w
          "serve:api": "nx run api:serve",
          "serve:web": "ng serve",
          "serve:all": "concurrently \"npm run serve:api \" \" npm run serve:web \""
-3) npm run serve:all -- should resolve earlier error by connecting frontend to backend
-4) add angular material theme to project 
-    ```` npx nx add @angular/material
+3) ````
+         npm run serve:all -- should resolve earlier error by connecting frontend to backend
+5) add angular material theme to project 
+    ```` 
+         npx nx add @angular/material
 5) add NgRx store to project
-    ```` npx nx add @ngrx/store
+    ```` 
+         npx nx add @ngrx/store
 6) add Library to project
     ```` 
          npx nx g lib material
