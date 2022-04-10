@@ -22,17 +22,18 @@ https://www.youtube.com/watch?v=j38ufd8Q86w
 
 # Building blocks
 
-api-interface project is used to communicate to server
-let's create data-model to api-interface project's api-interface.ts
+1) **api-interface** project is used to communicate to server
+   ```` let's create data-model to api-interface project's api-interface.ts
 
 
-export interface BaseEntity {
-  id : string | null;
-}
+   export interface BaseEntity {
+     id : string | null;
+   }
 
-export interface Todo extends BaseEntity {
-  Title : string;
-  Description : string;
-  Date : Date;
-  IsComplete : boolean;
-}
+   export interface Todo extends BaseEntity {
+     Title : string;
+     Description : string;
+     Date : Date;
+     IsComplete : boolean;
+   } ````
+ 
